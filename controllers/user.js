@@ -27,3 +27,7 @@ exports.getlogin = (req,res,next) =>{
 exports.homepage = (req,res,next) =>{
     res.render('home');
 };
+
+exports.getadmin = (req,res,next) =>{
+    res.render('admin/index');
+};
